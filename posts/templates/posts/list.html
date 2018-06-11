@@ -1,0 +1,290 @@
+{% extends "../base.html" %}
+{% load static %}
+{% load humanize %}
+{% load app_filters %}
+{% block title %}Wordplease{% endblock %}
+{% block body %}
+
+    <main id="page-index">
+        <div class="container">
+            <section class="post-content">
+                <div class=" post-content__large">
+                    {% for post in object_list %}
+                        {% if forloop.first %}
+                           <article class="post post--large">
+                                <div class="post__img">
+                                    <a href="{% url 'post-detail'  post.owner post.pk %}">
+                                        {% if post.image.url|split == 'video' %}
+                                            <video width="100%" height="240" autoplay loop="loop"><source src="{{post.image.url}}" type="video/mp4">Video</video>
+                                        {% else %}
+                                            <img src="{{post.image.url}}" alt="{{post.image.name}}">
+                                        {% endif %}
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="post__icons">
+                                        <span class="icon-calendar">{{ post.created_on|naturaltime }}</span>
+                                        <a  href="#" class="icon-comments">23</a>
+                                        <a  href="#" class="icon-heart"></a>
+                                    </div>
+                                    <div class="post__text">
+                                        <a href="{% url 'post-detail'  post.owner post.pk %}"> <h3>{{post.title}}</h3></a>
+                                        <p>{{post.text|truncatechars:400}}</p>
+                                    </div>
+                                    <div class="post__author">
+                                        <div class="img">
+                                            <img src="{% static 'img/author.png' %}" alt="Name">
+                                        </div>
+                                        <div class="name">
+                                            <p>{{ post.owner.first_name }} {{ post.owner.last_name }}</p>
+                                            <p>Categorias: {% for category in post.category.all %}{{ category }},{% endfor %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class=" post-content__small">
+                     {% for post in object_list %}
+                        {% if not forloop.first %}
+                           <article class="post post--small">
+                                <div class="post__img">
+                                    <a href="{% url 'post-detail'  post.owner post.pk %}">
+                                        {% if post.image.url|split == 'video' %}
+                                            <video width="100%" height="240" autoplay loop="loop"><source src="{{post.image.url}}" type="video/mp4">Video</video>
+                                        {% else %}
+                                            <img src="{{post.image.url}}" alt="{{post.image.name}}">
+                                        {% endif %}
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="post__icons">
+                                        <span class="icon-calendar">{{ post.created_on|naturaltime }}</span>
+                                        <a  href="#" class="icon-comments">23</a>
+                                        <a  href="#" class="icon-heart"></a>
+                                    </div>
+                                    <div class="post__text">
+                                        <a href="{% url 'post-detail'  post.owner post.pk %}"> <h3>{{post.title}}</h3></a>
+                                        <p>{{post.text|truncatechars:200}}</p>
+                                    </div>
+                                    <div class="post__author">
+                                         <div class="img">
+                                            <img src="{% static 'img/author.png' %}" alt="Name">
+                                        </div>
+                                        <div class="name">
+                                            <p>{{ post.owner.first_name }} {{ post.owner.last_name }}</p>
+                                            <p>Categorias: {% for category in post.category.all %}{{ category }},{% endfor %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </section>
+            <div class="interest-and-side">
+                <section class="post-interest">
+                    <div class="title">
+                        <h2>QUIZAS TE PUEDA INTERESAR…</h2>
+                    </div>
+
+                    <div class="post-interent__content">
+
+                         <article class="post  post--landscape">
+                                <div class="post__img">
+                                    <a href="#">
+                                        <img src="http://via.placeholder.com/350x150" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="post__icons">
+                                        <span class="icon-calendar">20 hours ago</span>
+                                        <a  href="#" class="icon-comments">23</a>
+                                        <a  href="#" class="icon-heart">2</a>
+                                    </div>
+                                    <div class="post__text">
+                                        <a href="#"> <h3>Title</h3></a>
+                                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac </p>
+                                    </div>
+                                    <div class="post__author">
+                                         <div class="img">
+                                            <img src="{% static 'img/author.png' %}" alt="Name">
+                                        </div>
+                                        <div class="name">
+                                            <p>Name Lastname</p>
+                                            <p>Categorias: category1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                         <article class="post  post--landscape">
+                                <div class="post__img">
+                                    <a href="#">
+                                        <img src="http://via.placeholder.com/350x150" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="post__icons">
+                                        <span class="icon-calendar">20 hours ago</span>
+                                        <a  href="#" class="icon-comments">23</a>
+                                        <a  href="#" class="icon-heart">2</a>
+                                    </div>
+                                    <div class="post__text">
+                                        <a href="#"> <h3>Title</h3></a>
+                                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac </p>
+                                    </div>
+                                    <div class="post__author">
+                                         <div class="img">
+                                            <img src="{% static 'img/author.png' %}" alt="Name">
+                                        </div>
+                                        <div class="name">
+                                            <p>Name Lastname</p>
+                                            <p>Categorias: category1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                         <article class="post  post--landscape">
+                                <div class="post__img">
+                                    <a href="#">
+                                        <img src="http://via.placeholder.com/350x150" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="post__icons">
+                                        <span class="icon-calendar">20 hours ago</span>
+                                        <a  href="#" class="icon-comments">23</a>
+                                        <a  href="#" class="icon-heart">2</a>
+                                    </div>
+                                    <div class="post__text">
+                                        <a href="#"> <h3>Title</h3></a>
+                                        <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac </p>
+                                    </div>
+                                    <div class="post__author">
+                                         <div class="img">
+                                            <img src="{% static 'img/author.png' %}" alt="Name">
+                                        </div>
+                                        <div class="name">
+                                            <p>Name Lastname</p>
+                                            <p>Categorias: category1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                    </div>
+                </section>
+
+                <aside class="post-top">
+                <h2>ARTÍCULOS MÁS LEIDOS</h2>
+
+                <article class="post post--top">
+                    <div class="post__author-img">
+                        <img src="{% static 'img/author.png' %}" alt="Name">
+                    </div>
+                    <div>
+                        <div class="post__text">
+                            <h3>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
+                            <p class="author-name">Apellido del autor</p>
+                            <div class="post__icons">
+                                <span class="icon-calendar">13 Febr 2018</span>
+                                <a  href="" class="icon-comments">23</a>
+                                <a  href="" class="icon-heart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post post--top">
+                    <div class="post__author-img">
+                        <img src="{% static 'img/author.png' %}" alt="Name">
+                    </div>
+                    <div>
+                        <div class="post__text">
+                            <h3>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
+                            <p class="author-name">Apellido del autor</p>
+                            <div class="post__icons">
+                                <span class="icon-calendar">13 Febr 2018</span>
+                                <a  href="" class="icon-comments">23</a>
+                                <a  href="" class="icon-heart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post post--top">
+                    <div class="post__author-img">
+                        <img src="{% static 'img/author.png' %}" alt="Name">
+                    </div>
+                    <div>
+                        <div class="post__text">
+                            <h3>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
+                            <p class="author-name">Apellido del autor</p>
+                            <div class="post__icons">
+                                <span class="icon-calendar">13 Febr 2018</span>
+                                <a  href="" class="icon-comments">23</a>
+                                <a  href="" class="icon-heart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post post--top">
+                    <div class="post__author-img">
+                        <img src="{% static 'img/author.png' %}" alt="Name">
+                    </div>
+                    <div>
+                        <div class="post__text">
+                            <h3>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
+                            <p class="author-name">Apellido del autor</p>
+                            <div class="post__icons">
+                                <span class="icon-calendar">13 Febr 2018</span>
+                                <a  href="" class="icon-comments">23</a>
+                                <a  href="" class="icon-heart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="post post--top">
+                    <div class="post__author-img">
+                        <img src="{% static 'img/author.png' %}" alt="Name">
+                    </div>
+                    <div>
+                        <div class="post__text">
+                            <h3>Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
+                            <p class="author-name">Apellido del autor</p>
+                            <div class="post__icons">
+                                <span class="icon-calendar">13 Febr 2018</span>
+                                <a  href="" class="icon-comments">23</a>
+                                <a  href="" class="icon-heart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </aside>
+
+            </div>
+            {% if is_paginated %}
+                <div class="pagination-content">
+                    <ul class="pagination">
+                    {% if page_obj.has_previous %}
+                      <li><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+                    {% else %}
+                      <li class="disabled"><span>&laquo;</span></li>
+                    {% endif %}
+                    {% for i in paginator.page_range %}
+                      {% if page_obj.number == i %}
+                        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                      {% else %}
+                        <li><a href="?page={{ i }}">{{ i }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                    {% if page_obj.has_next %}
+                      <li><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                    {% else %}
+                      <li class="disabled"><span>&raquo;</span></li>
+                    {% endif %}
+                </ul>
+                </div>
+            {% endif %}
+        </div>
+    </main>
+{% endblock %}

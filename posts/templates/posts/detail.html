@@ -1,0 +1,21 @@
+{% extends "../base.html" %}
+{% block title %}Django Pop{% endblock %}
+{% block body %}
+    <main id="page-post-detail">
+        <section class="container">
+            <article class="post-detail">
+                <img src="{{post.image.url}}" class="post-detail__main-img">
+
+                <div class="post-detail__text">
+                    <h1>{{ post.title }}</h1>
+                   <p>{{ post.body }}</p>
+                </div>
+                <div class="author">
+                    <div class="name">
+                        <p>{{ post.owner.first_name }} {{ post.owner.last_name }}</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+{% endblock %}

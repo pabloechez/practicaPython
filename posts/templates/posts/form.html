@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title%}Crear anuncio{% endblock %}
+{% block body %}
+    <main>
+        <div class="container">
+            <h1>Nuevo Post</h1>
+            {% include 'includes/messages.html' %}
+            <form method="post" novalidate enctype="multipart/form-data">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit">Crear post</button>
+            </form>
+        </div>
+    </main>
+{% endblock %}

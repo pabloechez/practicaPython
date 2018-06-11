@@ -1,0 +1,56 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}Wordplease{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body style="opacity: 1">
+<header class="main-header">
+    <div class="container">
+        <div class="main-header__logo">
+            <a href="{% url 'home' %}">
+                <img src="{% static 'img/logo.svg' %}" alt="Wordplease">
+            </a>
+        </div>
+        <a href="{% url 'blogs' %}">Blogs</a>
+
+        <div class="main-header__actions">
+            <div class="search">
+                <a href="#" class="search__show"></a>
+                <div class="field">
+                    <input type="text" name="search" id="search" placeholder="Buscar...">
+                </div>
+            </div>
+             {% if user.is_authenticated %}
+                 <a href="{% url 'post-create' %}" class="button button-border">Nuevo post</a>
+                    Hola {{ user.first_name }}
+                  <a href="{% url 'logout' %}" class="button button-border">Logout</a>
+             {% else %}
+                 <a href="{% url 'login' %}" class="button button-border">Regístrate o inicia sesión</a>
+             {% endif %}
+        </div>
+    </div>
+</header>
+{% block body%}{% endblock %}
+
+<footer class="main-footer">
+    <div class="container">
+        <div class="main-footer__logo">
+            <img src="{% static 'img/footer-logo.svg' %}" alt="Typo">
+        </div>
+
+        <div class="main-footer__action">
+            <a href="#"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M13.402 16.957l-6.478-6.479L13.402 4l.799.71-5.768 5.768 5.768 5.77z" fill-rule="evenodd"></path></svg> Subir</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
