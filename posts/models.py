@@ -45,6 +45,5 @@ class Post(models.Model):
         Define cómo se representa un Post como una string
         :return:
         """
-
         categories = ", ".join(str(cat) for cat in self.category.all())
         return '{0} ({1})'.format(self.title, categories)
