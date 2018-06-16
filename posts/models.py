@@ -32,7 +32,7 @@ class Post(models.Model):
     image = models.FileField(null=True)
     category = models.ManyToManyField(Category)
 
-    status = models.CharField(max_length=3, choices=STATUSES, default=PENDING)
+    status = models.CharField(max_length=3, choices=STATUSES, default=APPROVED)
     created_on = models.DateTimeField(auto_now_add=True)
     modified_on = models.DateTimeField(auto_now=True)
 

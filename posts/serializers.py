@@ -4,15 +4,17 @@ from posts.models import Post
 
 
 class PostListSerializer(ModelSerializer):
+
     class Meta:
         model = Post
-        fields = ['title', 'image', 'text', 'created_on']
+        fields = ['id', 'title', 'image', 'text', 'created_on' ]
 
 
 class NewPostSerializer(ModelSerializer):
+
     class Meta:
         model = Post
-        fields = ['title', 'body', 'image']
+        fields = ['id', 'title', 'body', 'image', 'category']
 
 
 class PostDetailSerializer(ModelSerializer):

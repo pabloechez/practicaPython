@@ -66,9 +66,30 @@ http://127.0.0.1:8000/api/v1/blogs/?ordering=first_name
 ```
 
 ### API Posts
-Listado de posts: GET
+Listado de posts de un blog: GET
 ```
-http://127.0.0.1:8000/api/v1/posts
+http://127.0.0.1:8000/api/v1/blogs/:id/
+```
+\
+Busqueda en un listado de posts de un blog: GET
+```
+http://127.0.0.1:8000/api/v1/blogs/:id/?search=palabra
+```
+\
+Ordenación en un listado de posts de un blog(title,created_on): GET
+```
+http://127.0.0.1:8000/api/v1/blogs/:id/?ordering=example
+```
+\
+Creación de un post(MULTIPART FORM) : POST
+Fields: title, image, text, body, category
+```
+http://127.0.0.1:8000/api/v1/posts/
+```
+\
+Detalle de un post: GET
+```
+http://127.0.0.1:8000/api/v1/posts/:id
 ```
 \
 Busquedas: GET
