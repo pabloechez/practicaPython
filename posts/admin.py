@@ -27,7 +27,10 @@ class PostAdmin(admin.ModelAdmin):
     owner_name.admin_order_field = 'owner__first_name'
 
     def image_html(self, post):
-        return mark_safe('<img src="{0}" alr="{1} title="{2}" width="100">'.format(post.image.url, post.title, post.title))
+        if post.image:
+            return mark_safe('<img src="{0}" alr="{1} title="{2}" width="100">'.format(post.image.url, post.title, post.title))
+        else:
+            return ''
 
     image_html.short_description = 'Image'
     image_html.admin_order_field = 'image'

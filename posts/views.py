@@ -32,12 +32,12 @@ class BlogView(ListView):
     template_name = 'posts/blogs.html'
 
     def get_queryset(self):
-        result = super().get_queryset().exclude(pk=1)
+        result = super().get_queryset().filter(is_superuser=False)
         return result
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['title'] = 'Wordplease'
+        context['title'] = 'Blogs'
         context['claim'] = 'Una plataforma de anuncios hecha con Django'
         return context
 
@@ -69,21 +69,11 @@ class PostDetailView(DetailView):
 class PostFormView(View):
 
     def get(self, request):
-        """
-        Formulario para la creación de un post
-        :param request:
-        :return:
-        """
         form = PostForm()
         context = {'form': form}
         return render(request, 'posts/form.html', context)
 
     def post(self, request):
-        """
-        Formulario para la creación de un anuncio
-        :param request:
-        :return:
-        """
         post = Post()
         post.owner = request.user
         form = PostForm(request.POST, request.FILES, instance=post)

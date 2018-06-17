@@ -13,11 +13,15 @@
                         {% if forloop.first %}
                            <article class="post post--large">
                                 <div class="post__img">
-                                    <a href="{% url 'post-detail'  post.owner post.pk %}">
-                                        {% if post.image.url|split == 'video' %}
-                                            <video width="100%" height="240" autoplay loop="loop"><source src="{{post.image.url}}" type="video/mp4">Video</video>
+                                    <a href="{% url 'post-detail' post.owner post.pk %}">
+                                        {% if post.image %}
+                                            {% if post.image.url|split == 'video' %}
+                                                <video width="100%" height="240" autoplay loop="loop"><source src="{{post.image.url}}" type="video/mp4">Video</video>
+                                            {% else %}
+                                                <img src="{{post.image.url}}" alt="{{post.image.name}}">
+                                            {% endif %}
                                         {% else %}
-                                            <img src="{{post.image.url}}" alt="{{post.image.name}}">
+                                            <img src="{% static 'img/default-post.jpg' %}" alt="default">
                                         {% endif %}
                                     </a>
                                 </div>
@@ -51,10 +55,14 @@
                            <article class="post post--small">
                                 <div class="post__img">
                                     <a href="{% url 'post-detail'  post.owner post.pk %}">
-                                        {% if post.image.url|split == 'video' %}
-                                            <video width="100%" height="240" autoplay loop="loop"><source src="{{post.image.url}}" type="video/mp4">Video</video>
+                                        {% if post.image %}
+                                            {% if post.image.url|split == 'video' %}
+                                                <video width="100%" height="240" autoplay loop="loop"><source src="{{post.image.url}}" type="video/mp4">Video</video>
+                                            {% else %}
+                                                <img src="{{post.image.url}}" alt="{{post.image.name}}">
+                                            {% endif %}
                                         {% else %}
-                                            <img src="{{post.image.url}}" alt="{{post.image.name}}">
+                                            <img src="{% static 'img/default-post.jpg' %}" alt="default">
                                         {% endif %}
                                     </a>
                                 </div>

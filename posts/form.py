@@ -16,4 +16,8 @@ class PostForm(ModelForm):
             raise ValidationError('La imagen no es válida')
         return image
 
+    def __init__(self, *args, **kwargs):
+        super(PostForm, self).__init__(*args, **kwargs)
+        self.fields['image'].required = False
+
 

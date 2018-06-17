@@ -17,7 +17,14 @@
                 <img src="{% static 'img/logo.svg' %}" alt="Wordplease">
             </a>
         </div>
-        <a href="{% url 'blogs' %}">Blogs</a>
+        <nav>
+            <ul>
+                <li>
+                     <a href="{% url 'blogs' %}">Blogs</a>
+                </li>
+            </ul>
+        </nav>
+
 
         <div class="main-header__actions">
             <div class="search">
@@ -27,8 +34,8 @@
                 </div>
             </div>
              {% if user.is_authenticated %}
+                 <p> Hola {{ user.first_name }} </p>
                  <a href="{% url 'post-create' %}" class="button button-border">Nuevo post</a>
-                    Hola {{ user.first_name }}
                   <a href="{% url 'logout' %}" class="button button-border">Logout</a>
              {% else %}
                  <a href="{% url 'login' %}" class="button button-border">Regístrate o inicia sesión</a>

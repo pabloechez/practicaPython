@@ -1,19 +1,19 @@
 {% extends "../base.html" %}
 {% block title %}{% endblock %}
 {% block body %}
-     <main>
+     <main id="page-blogs">
         <div class="container">
-
             <h1>{{ title }}</h1>
-            <p>{{ claim }}</p>
+            <div class="content">
 
-            {% for user in object_list %}
-               <a href="{% url 'blog-detail'  user.username  %}">
-                    <div>
-                       <h2>{{ user.username }}</h2>
-                    </div>
-                </a>
-            {% endfor %}
+                {% for user in object_list %}
+                   <a href="{% url 'blog-detail'  user.username  %}">
+                        <div>
+                           <h2>{{ user.username }}</h2>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
         </div>
      </main>
 {% endblock %}
