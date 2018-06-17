@@ -3,18 +3,83 @@
   <component name="ChangeListManager">
     <list default="true" id="951fc12e-d90c-448c-a81c-26ecc39926a0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/posts/blog-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/posts/blog-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/posts/blogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/posts/blogs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_1aOY3a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_5O7ew1T.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_AzSrL2z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_fxV6Nd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_oHUXYWn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_t1LgC5o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_zvSMx45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_0fY4Fpm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_2IfTtRv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_2RXONqS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_6vz7NFY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_BTo1dCG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_GJ3lGEH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_Rygf72n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_TD3Pmbc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_UjXmxuw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_WWj1lhL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_Xn011Iz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_Ykuk9r0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_ZTDXsEj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_cFGU1Yg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_cXTqkuG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_cff9lYU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_dAtfq5w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_eSO4jmP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_giFH8pY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_i1P2xRU.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_qLXJGn0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_uVjHjmH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Recurso_1_vITAaZ3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/author.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/templates/posts/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/posts/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/posts/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/posts/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/static/config.codekit3" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/config.codekit3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-36x36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-120x120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-152x152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-167x167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-57x57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-76x76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1182x2208.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1242x2148.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1496x2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1536x2008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-320x460.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-640x1096.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-640x920.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-748x1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-750x1294.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-768x1004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/firefox_app_128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/firefox_app_512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/firefox_app_60x60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/manifest.webapp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,97 +131,17 @@
       <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts/templates/posts/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="68" lean-forward="true" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="101" />
+            <state relative-caret-position="509">
+              <caret line="43" column="129" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="129" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="791">
-                <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/form.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/templates/posts/form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-              <folding>
-                <element signature="e#631#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blogs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/templates/posts/blogs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blogs.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/static/less/pages/blogs.less">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/posts/templates/posts/detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/static/less/main.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="150" column="20" selection-start-line="150" selection-start-column="20" selection-end-line="150" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog-list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/templates/posts/blog-list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="34" />
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -197,13 +182,10 @@
         <option value="$PROJECT_DIR$/users/api.py" />
         <option value="$PROJECT_DIR$/users/serializers.py" />
         <option value="$PROJECT_DIR$/posts/permissions.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/posts/serializers.py" />
         <option value="$PROJECT_DIR$/posts/api.py" />
-        <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/posts/admin.py" />
         <option value="$PROJECT_DIR$/posts/templates/posts/list.html" />
-        <option value="$PROJECT_DIR$/posts/templates/posts/detail.html" />
         <option value="$PROJECT_DIR$/ui/templates/base.html" />
         <option value="$PROJECT_DIR$/ui/static/less/pages/layout.less" />
         <option value="$PROJECT_DIR$/posts/templates/posts/blog-list.html" />
@@ -211,8 +193,11 @@
         <option value="$PROJECT_DIR$/posts/templates/posts/blogs.html" />
         <option value="$PROJECT_DIR$/ui/static/less/pages/blogs.less" />
         <option value="$PROJECT_DIR$/project/urls.py" />
-        <option value="$PROJECT_DIR$/posts/views.py" />
         <option value="$PROJECT_DIR$/posts/form.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/posts/views.py" />
+        <option value="$PROJECT_DIR$/posts/models.py" />
+        <option value="$PROJECT_DIR$/posts/templates/posts/detail.html" />
       </list>
     </option>
   </component>
@@ -262,37 +247,6 @@
               <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicaPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicaPython" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicaPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicaPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicaPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicaPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicaPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicaPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practicaPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practicaPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="less" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -398,9 +352,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32942432" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21475771" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21475771" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32942432" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21821515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22066015" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -642,27 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/posts/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/templates/posts/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -677,30 +614,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="210" column="7" selection-start-line="210" selection-start-column="7" selection-end-line="210" selection-end-column="7" />
-          <folding>
-            <element signature="e#531#1994#0" />
-            <element signature="e#2112#3999#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/templates/posts/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="68" lean-forward="true" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="101" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/templates/posts/blog-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="240">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/static/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
+        <state relative-caret-position="3600">
           <caret line="150" column="20" selection-start-line="150" selection-start-column="20" selection-end-line="150" selection-end-column="20" />
         </state>
       </provider>
@@ -721,7 +647,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
+        <state relative-caret-position="792">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
@@ -729,36 +655,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/posts/templates/posts/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/form.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="791">
-            <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/templates/posts/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="43" column="129" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/templates/posts/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>

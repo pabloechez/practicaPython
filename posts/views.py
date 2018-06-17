@@ -44,7 +44,7 @@ class BlogView(ListView):
 
 class BlogDetailView(ListView):
     model = Post
-    template_name = 'posts/blog-list.html'
+    template_name = 'posts/list.html'
     paginate_by = 7
 
     def get_queryset(self):

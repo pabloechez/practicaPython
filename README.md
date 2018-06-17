@@ -2,6 +2,10 @@
 Práctica de KeepCoding para el módulo de python
 
 ## Web
+Administrador:
+\
+Usuario: admin\
+Password: keepcoding
 
 ## API
 

@@ -29,7 +29,7 @@ class Post(models.Model):
     title = models.CharField(max_length=150)
     text = models.TextField()
     body = models.TextField()
-    image = models.FileField(null=True)
+    image = models.FileField(null=True, blank=True,)
     category = models.ManyToManyField(Category)
 
     status = models.CharField(max_length=3, choices=STATUSES, default=APPROVED)

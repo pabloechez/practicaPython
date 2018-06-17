@@ -27,6 +27,7 @@
                     <p><b>{{ post.text }}</b></p>
                    <p>{{ post.body }}</p>
                 </div>
+                <p>Categorias: {% for category in post.category.all %}{{ category }},{% endfor %}</p>
                 <div class="author">
                     <div class="name">
                         <p>{{ post.owner.first_name }} {{ post.owner.last_name }}</p>
