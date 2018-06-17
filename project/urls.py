@@ -40,7 +40,7 @@ urlpatterns = [
     path('blogs', BlogView.as_view(), name='blogs'),
     path('blogs/<username>', BlogDetailView.as_view(), name='blog-detail'),
     path('blogs/<username>/<int:pk>', PostDetailView.as_view(), name='post-detail'),
-    path('blog/new-post', PostFormView.as_view(), name='post-create'),
+    path('new-post', PostFormView.as_view(), name='post-create'),
 
     path('login', LoginView.as_view(), name='login'),
     path('signup', SignupView.as_view(), name='signup'),

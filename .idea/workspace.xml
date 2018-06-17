@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951fc12e-d90c-448c-a81c-26ecc39926a0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_1aOY3a5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_5O7ew1T.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_AzSrL2z.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_fxV6Nd2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_oHUXYWn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_t1LgC5o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Captura_de_pantalla_2018-06-13_a_las_9.43.51_zvSMx45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_0fY4Fpm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_2IfTtRv.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_2RXONqS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_6vz7NFY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_BTo1dCG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_GJ3lGEH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_Rygf72n.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_TD3Pmbc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_UjXmxuw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_WWj1lhL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_Xn011Iz.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_Ykuk9r0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_ZTDXsEj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_cFGU1Yg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_cXTqkuG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_cff9lYU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_dAtfq5w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_eSO4jmP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_giFH8pY.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_i1P2xRU.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_qLXJGn0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_uVjHjmH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/Recurso_1_vITAaZ3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/author.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/posts/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/posts/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/config.codekit3" beforeDir="false" afterPath="$PROJECT_DIR$/ui/static/config.codekit3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-384x384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/android-chrome-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-167x167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1182x2208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1242x2148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1496x2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-1536x2008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-320x460.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-640x1096.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-640x920.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-748x1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-750x1294.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/apple-touch-startup-image-768x1004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/firefox_app_128x128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/firefox_app_512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/firefox_app_60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/static/img/icons-eb636c3e9f03c07ec515bc3c8fc4cde7/manifest.webapp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -137,11 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts/templates/posts/detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding>
+                <element signature="e#631#663#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,12 +127,12 @@
         <option value="$PROJECT_DIR$/ui/static/less/main.less" />
         <option value="$PROJECT_DIR$/posts/templates/posts/blogs.html" />
         <option value="$PROJECT_DIR$/ui/static/less/pages/blogs.less" />
-        <option value="$PROJECT_DIR$/project/urls.py" />
         <option value="$PROJECT_DIR$/posts/form.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/posts/views.py" />
         <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/posts/templates/posts/detail.html" />
+        <option value="$PROJECT_DIR$/project/urls.py" />
       </list>
     </option>
   </component>
@@ -247,6 +182,11 @@
               <item name="posts" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practicaPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practicaPython" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -645,16 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/posts/templates/posts/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -709,6 +639,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
